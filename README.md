@@ -23,3 +23,7 @@ whether to support a given artist.
 - The music industry can boost the amount of streams and downloads, which will increase
 income, by marketing songs that are expected to be popular. Resulting in a boost of income.
 
+### Data Sources
+We are utilizing the dataset produced by the Brazilian Federal University of Minas Gerais' computer science department. The dataset comes in a zip format divided into 3 directories — metadata, popularity, and song features. These directories contain multiple CSVs representing different tables of the MusiOSet dataset. The dataset contains more than 20,000 rows that are dispersed across several tables and we merge all the tables to obtain our initial data collection.
+
+Link: [MusicOSet Dataset]
