@@ -34,3 +34,7 @@ We divided the project into 3 phases :
 1. Exploratory Data Analysis
 2. Applying Machine Learning Algorithms and Statistical Models
 3. Build Data Projects for Presentation of Findings
+
+### Phase 1 - Exploratory Data Analysis
+
+
