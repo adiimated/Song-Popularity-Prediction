@@ -9,3 +9,8 @@ The goal of this project is to create a machine learning model that can precisel
 ### Significance
 
 The music industry professionals can save time and money if song popularity can be predicted accurately, making this issue crucial. They can utilize machine learning models to forecast the success of a new song or album before it is released instead of depending on trial-and-error techniques. This can lessen financial risk and raise the likelihood of success in the cutthroat music business.
+
+### Project Potential
+Some instances where our project might be crucial is:
+● The music industry professionals can use their resources more efficiently if they can
+accurately predict a song's level of popularity. The music industry may concentrate on
