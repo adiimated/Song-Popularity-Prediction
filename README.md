@@ -15,9 +15,11 @@ Some instances where our project might be crucial is:
 
 ● The music industry professionals can use their resources more efficiently if they can accurately predict a song's level of popularity. The music industry may concentrate on advertising songs that are expected to be popular rather than spending money promoting
 a song that may or may not be popular.
+
 ● The music industry can enhance its artist choosing process with precise song popularity
 estimates. This can assist the industry in identifying fresh potential and helping it decide
 whether to support a given artist.
+
 ● The music industry can boost the amount of streams and downloads, which will increase
 income, by marketing songs that are expected to be popular. Resulting in a boost of income.
 
