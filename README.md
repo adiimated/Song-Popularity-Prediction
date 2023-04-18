@@ -27,3 +27,10 @@ income, by marketing songs that are expected to be popular. Resulting in a boost
 We are utilizing the dataset produced by the Brazilian Federal University of Minas Gerais' computer science department. The dataset comes in a zip format divided into 3 directories — metadata, popularity, and song features. These directories contain multiple CSVs representing different tables of the MusiOSet dataset. The dataset contains more than 20,000 rows that are dispersed across several tables and we merge all the tables to obtain our initial data collection.
 
 Link: https://marianaossilva.github.io/DSW2019/#downloads
+
+### Execution
+
+We divided the project into 3 phases : 
+1. Exploratory Data Analysis
+2. Applying Machine Learning Algorithms and Statistical Models
+3. Build Data Projects for Presentation of Findings
