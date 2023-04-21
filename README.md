@@ -39,33 +39,42 @@ We divided the project into 3 phases :
 
 #### Data Cleaning
 
-1. Dropping null values.
+1. Dropping null values
+
 Here in this project we are dropping the null values or NA values from the songs_pop, songs_df and artists_pop dataframes.
 
 2. Checking for the types of rows for cleaning
 
 3. Merging tables
+
 We mainly merge the songs info and popularity dataframes. Then till is merged with tracks and acoustic features dataset. After this we merge the resulting dataset with artist info and artist popularity. 
 
 4. Drop duplicates
+
 Duplicate rows from the songs popularity dataframe are removed.
 
 5. Dropping irrelevant columns
+
 The below columns are removed from the final dataset as they are not useful in the prediction process.
 
 6. Type change from object to datetime
+
 The release_date variable is an object initially when it is read but for further tasks, it is converted to datetime format.
 
 7. Finding unique values
+
 Only the unique entries of songs in popularity table are useful. Hence we first check the count of the unique songs present in the dataset.
 
 8. aggregate (groupby) to find popularity of artist
+
 Each artist has a popularity score for each year he is present in the dataset along with if he/she is popular or not. We only need to know if the artist is popular or not. Hence to get a single value of popularity we take the majority count of popularity of the artist to determine this.
 
 9. df.apply() to convert object of dict to string to get artist id for merging
+
 To merge songs and artists dataframe, we need the artist_id in the songs dataframe. But this is present in the dict structure of type {“artist_id”: “artist_name”}. Hence we create a new column by extracting the key of this structure. This structure then is added back to the songs dataframe.
 
 10. Removing outliers
+
 There are very few songs which can go on for more than 13 mins. Hence to remove these outliers, we filter the songs dataframe to only keep songs less than 13 mins.
 
 
