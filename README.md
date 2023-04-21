@@ -1,6 +1,6 @@
 # Song Popularity Prediction
 
-### Background
+## Background
 
 For musicians, record companies, and music streaming services, a song's popularity is essential since it can decide the success of a new release or even an entire career. Professionals in the music business can plan their marketing, promotion, and distribution strategies by forecasting which songs are most likely to catch on. Researchers and music industry professionals alike have a unique opportunity to investigate and comprehend the aspects that influence song popularity and trends by analyzing huge music datasets. By utilizing these resources, stakeholders can develop new winning strategies for an extremely competitive market and make data-driven decisions.
 
@@ -35,9 +35,9 @@ We divided the project into 3 phases :
 2. Applying Machine Learning Algorithms and Statistical Models
 3. Build Data Projects for Presentation of Findings
 
-### Phase 1 - Exploratory Data Analysis
+## Phase 1 - Exploratory Data Analysis
 
-#### Data Cleaning
+### Data Cleaning
 
 1. Dropping null values : Here in this project we are dropping the null values or NA values from the songs_pop, songs_df and artists_pop dataframes.
 
