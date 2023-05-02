@@ -59,4 +59,28 @@ We divided the project into 3 phases :
 
 10. Removing outliers : There are very few songs which can go on for more than 13 mins. Hence to remove these outliers, we filter the songs dataframe to only keep songs less than 13 mins.
 
+### Data Cleaning
+
+1. Checking Main statistics of the data using df.describe()
+
+To get a sense of spread of the data, central tendency, dispersion, and shape of the distribution of the data in a DataFrame, we use df.describe().
+
+2. Plotting a heatmap of Correlation Matrix
+
+To get the correlation between the different variables in the dataset, we plot the heatmap for the dataset.
+
+Some of the strongly correlated features are: 
+
+➔ (speechiness, explicit) : Explicit lyrics frequently contain more spoken words which are more likely to include profanity or other types of explicit language, which may account for the association between speechiness and explicitness in music. Also, as they concentrate on telling stories and delivering a message, songs with higher speechiness scores may be more likely to have explicit lyrics.
+
+➔ (energy, loudness)
+Loud noises can evoke feelings of enthusiasm and intensity, which are frequently connected with energetic music. Similar to this, energetic music typically has a quick tempo and a powerful beat, which frequently results in louder volumes.
+
+➔ (danceability, valence)
+The fact that happy and uplifting music tends to be more danceable can be used to explain the relationship between danceability and valence. Songs with a high valence, which is a measure of how good or negative the emotions the music evokes, are frequently characterized by a quick tempo and a powerful beat, making them better suited for dancing. Similar to this, danceable music has an optimistic, uplifting atmosphere that might heighten the song's valence.
+
+3. Bar Graph -- Popularity of Songs
+
+We created a bar graph showing how many popular and unpopular songs are included in the collection. In our dataset, there are more songs that are not popular than popular songs.
+
 
