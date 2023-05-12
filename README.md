@@ -59,7 +59,7 @@ We divided the project into 3 phases :
 
 10. Removing outliers : There are very few songs which can go on for more than 13 mins. Hence to remove these outliers, we filter the songs dataframe to only keep songs less than 13 mins.
 
-### Data Cleaning
+### EDA
 
 1. Checking Main statistics of the data using df.describe()
 
