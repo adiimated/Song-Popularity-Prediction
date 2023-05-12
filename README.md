@@ -83,4 +83,32 @@ The fact that happy and uplifting music tends to be more danceable can be used t
 
 We created a bar graph showing how many popular and unpopular songs are included in the collection. In our dataset, there are more songs that are not popular than popular songs.
 
+4. Line graph -- Trend of songs, non-explicit and explicit over the years
 
+The graph demonstrates a pattern where the number of songs without explicit language or topics declines with time; it suggests that there has been a fall in the creation or release of such songs. Again, there has been a noticeable rise in the number of songs containing explicit material over time. The number of explicit songs climbed dramatically with each passing year. This might be the result of a number of things, including shifting societal norms and attitudes toward explicit language and themes in music, technological developments, and easier distribution and accessibility of music.
+
+5. Bar graph -- Top 10 genres of all time
+
+Depending on variables including geography, demographics, and cultural trends, the popularity of certain genres can vary dramatically. Considering these factors, the most listened to genres are:
+1. Album rock
+2. Adult standards
+3. Dance Pop
+4. Contemporary Country
+5. Classic Soul
+6. Brill Building Pop
+7. Disco
+8. Karaoke
+9. Bubblegum Pop
+10. Alternative Metal
+
+6. Line Graph with Hue -- Song Year End Score VS Year Based on Popularity of Songs
+
+Songs published more recently may have been more well-liked or streamed more frequently than songs released in years past, considering that the year-end score for songs has been rising over time. A number of things, such as modifications in consumer behavior, technological developments, and alterations in music business trends, could be to blame for this. It's crucial to remember that year-end rankings can not always be a true representation of the overall excellence or worth of a song, as popularity can be influenced by a number of variables, including marketing, social media presence, and the date of release.
+
+Generally, a rising year-end score implies that more recent songs have become more well-known or popular than songs from earlier years.
+
+7. Histogram -- Duration of all songs
+
+If the distribution of song lengths on the graph is any indication, the most typical song length is probably between 3 and 4 minutes, with the majority of songs falling between 187000 and 260000 milliseconds. This song's typical length can be attributed to a variety of factors. For instance, a song lasting three to four minutes can convey a full musical concept, tell a story, or express an emotion while being brief enough to keep listeners interested and fit into the conventional structure of a commercial radio broadcast. 
+
+Overall, the concentration of songs in the 3–4 minute range indicates that this is a well-liked and effective formula for writing music that connects with listeners and satisfies industry standards.
