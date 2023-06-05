@@ -61,13 +61,9 @@ We divided the project into 3 phases :
 
 ### EDA
 
-1. Checking Main statistics of the data using df.describe()
+1. Checking Main statistics of the data using df.describe() : To get a sense of spread of the data, central tendency, dispersion, and shape of the distribution of the data in a DataFrame, we use df.describe().
 
-To get a sense of spread of the data, central tendency, dispersion, and shape of the distribution of the data in a DataFrame, we use df.describe().
-
-2. Plotting a heatmap of Correlation Matrix
-
-To get the correlation between the different variables in the dataset, we plot the heatmap for the dataset.
+2. Plotting a heatmap of Correlation Matrix : To get the correlation between the different variables in the dataset, we plot the heatmap for the dataset.
 
 Some of the strongly correlated features are: 
 
@@ -79,13 +75,9 @@ Loud noises can evoke feelings of enthusiasm and intensity, which are frequently
 ➔ (danceability, valence)
 The fact that happy and uplifting music tends to be more danceable can be used to explain the relationship between danceability and valence. Songs with a high valence, which is a measure of how good or negative the emotions the music evokes, are frequently characterized by a quick tempo and a powerful beat, making them better suited for dancing. Similar to this, danceable music has an optimistic, uplifting atmosphere that might heighten the song's valence.
 
-3. Bar Graph -- Popularity of Songs
+3. Bar Graph -- Popularity of Songs : We created a bar graph showing how many popular and unpopular songs are included in the collection. In our dataset, there are more songs that are not popular than popular songs.
 
-We created a bar graph showing how many popular and unpopular songs are included in the collection. In our dataset, there are more songs that are not popular than popular songs.
-
-4. Line graph -- Trend of songs, non-explicit and explicit over the years
-
-The graph demonstrates a pattern where the number of songs without explicit language or topics declines with time; it suggests that there has been a fall in the creation or release of such songs. Again, there has been a noticeable rise in the number of songs containing explicit material over time. The number of explicit songs climbed dramatically with each passing year. This might be the result of a number of things, including shifting societal norms and attitudes toward explicit language and themes in music, technological developments, and easier distribution and accessibility of music.
+4. Line graph -- Trend of songs, non-explicit and explicit over the years : The graph demonstrates a pattern where the number of songs without explicit language or topics declines with time; it suggests that there has been a fall in the creation or release of such songs. Again, there has been a noticeable rise in the number of songs containing explicit material over time. The number of explicit songs climbed dramatically with each passing year. This might be the result of a number of things, including shifting societal norms and attitudes toward explicit language and themes in music, technological developments, and easier distribution and accessibility of music.
 
 5. Bar graph -- Top 10 genres of all time
 
@@ -101,17 +93,9 @@ Depending on variables including geography, demographics, and cultural trends, t
 9. Bubblegum Pop
 10. Alternative Metal
 
-6. Line Graph with Hue -- Song Year End Score VS Year Based on Popularity of Songs
+6. Line Graph with Hue -- Song Year End Score VS Year Based on Popularity of Songs : Songs published more recently may have been more well-liked or streamed more frequently than songs released in years past, considering that the year-end score for songs has been rising over time. A number of things, such as modifications in consumer behavior, technological developments, and alterations in music business trends, could be to blame for this. It's crucial to remember that year-end rankings can not always be a true representation of the overall excellence or worth of a song, as popularity can be influenced by a number of variables, including marketing, social media presence, and the date of release. Generally, a rising year-end score implies that more recent songs have become more well-known or popular than songs from earlier years.
 
-Songs published more recently may have been more well-liked or streamed more frequently than songs released in years past, considering that the year-end score for songs has been rising over time. A number of things, such as modifications in consumer behavior, technological developments, and alterations in music business trends, could be to blame for this. It's crucial to remember that year-end rankings can not always be a true representation of the overall excellence or worth of a song, as popularity can be influenced by a number of variables, including marketing, social media presence, and the date of release.
-
-Generally, a rising year-end score implies that more recent songs have become more well-known or popular than songs from earlier years.
-
-7. Histogram -- Duration of all songs
-
-If the distribution of song lengths on the graph is any indication, the most typical song length is probably between 3 and 4 minutes, with the majority of songs falling between 187000 and 260000 milliseconds. This song's typical length can be attributed to a variety of factors. For instance, a song lasting three to four minutes can convey a full musical concept, tell a story, or express an emotion while being brief enough to keep listeners interested and fit into the conventional structure of a commercial radio broadcast. 
-
-Overall, the concentration of songs in the 3–4 minute range indicates that this is a well-liked and effective formula for writing music that connects with listeners and satisfies industry standards.
+7. Histogram -- Duration of all songs : If the distribution of song lengths on the graph is any indication, the most typical song length is probably between 3 and 4 minutes, with the majority of songs falling between 187000 and 260000 milliseconds. This song's typical length can be attributed to a variety of factors. For instance, a song lasting three to four minutes can convey a full musical concept, tell a story, or express an emotion while being brief enough to keep listeners interested and fit into the conventional structure of a commercial radio broadcast. Overall, the concentration of songs in the 3–4 minute range indicates that this is a well-liked and effective formula for writing music that connects with listeners and satisfies industry standards.
 
 8. Scatter Plot -- Loudness VS Energy Based on Popularity of Songs
 We can see from the graph above that even if the music is loud and energetic, we cannot predict whether or not it will be popular. But we can definitely say that loudness and energy are 2 factors that are highly correlated. This could be due to the fact that loudness can evoke feelings of excitement and intensity, whereas energy is frequently linked to a song's tempo and rhythm. When these elements work together, they can have a strong emotional effect on listeners and increase a song's memorability and appeal.
@@ -135,5 +119,4 @@ Loudness:
 The IQR of popular songs is lower than the IQR of all songs combined, it could mean that the loudness levels of popular songs are more consistently high.
 This might be as a result of the more uniform loudness level across popular songs, which are made to be more approachable and catchy.
    
-10. Radar graph -- showing mean of features for top 100 songs and the rest of the dataset
-The acousticness, danceability, energy, instrumentality, liveliness, speechiness, and valence mean for the top 100 songs in popularity as well as the remainder of the dataset are all displayed in the radar graph above. We may deduce from this graph that the top 100 songs have higher energy and danceability than the remainder of the dataset. We also see that the top 100 songs have significantly less liveness, valence, and acoustic content than the remainder of the sample.
+10. Radar graph -- showing mean of features for top 100 songs and the rest of the dataset : The acousticness, danceability, energy, instrumentality, liveliness, speechiness, and valence mean for the top 100 songs in popularity as well as the remainder of the dataset are all displayed in the radar graph above. We may deduce from this graph that the top 100 songs have higher energy and danceability than the remainder of the dataset. We also see that the top 100 songs have significantly less liveness, valence, and acoustic content than the remainder of the sample.
