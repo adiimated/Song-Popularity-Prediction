@@ -112,3 +112,28 @@ Generally, a rising year-end score implies that more recent songs have become mo
 If the distribution of song lengths on the graph is any indication, the most typical song length is probably between 3 and 4 minutes, with the majority of songs falling between 187000 and 260000 milliseconds. This song's typical length can be attributed to a variety of factors. For instance, a song lasting three to four minutes can convey a full musical concept, tell a story, or express an emotion while being brief enough to keep listeners interested and fit into the conventional structure of a commercial radio broadcast. 
 
 Overall, the concentration of songs in the 3–4 minute range indicates that this is a well-liked and effective formula for writing music that connects with listeners and satisfies industry standards.
+
+8. Scatter Plot -- Loudness VS Energy Based on Popularity of Songs
+We can see from the graph above that even if the music is loud and energetic, we cannot predict whether or not it will be popular. But we can definitely say that loudness and energy are 2 factors that are highly correlated. This could be due to the fact that loudness can evoke feelings of excitement and intensity, whereas energy is frequently linked to a song's tempo and rhythm. When these elements work together, they can have a strong emotional effect on listeners and increase a song's memorability and appeal.
+ 
+ 9. Box Plot -- loudness, acousticness, danceability, valence
+
+Valence:
+We can see from empirical data that the IQR of popular songs is typically narrower than the IQR of all songs combined. As a result, there are less extreme valence scores and a greater consistency in the emotional content of popular songs. In comparison, all songs often have a wider range of valence scores and a more diversified emotional content.
+  
+Popular songs are often written to appeal to a wide audience, which may necessitate a more consistent emotional tone, which may be one explanation for this discrepancy. In contrast, a broader variety of genres, styles, and moods are present in all songs as a whole, which inevitably leads to a wider variety of emotional content.
+
+
+Danceability:
+There may be a number of reasons why the IQR of popular songs differs from all other songs. Dancing is frequently connected to fun and amusement, therefore it stands to reason that successful songs are more likely to be produced and marketed with danceability in mind. Another influence might be the prevalence of popular music in social settings where dancing is widespread, including parties and clubs. Songs that are easier to dance to might therefore have a higher chance of being well-known and generally recognized.
+
+Acousticness:
+The interquartile range of popular songs differs significantly from the interquartile range of all songs, it may be that popular songs and non-popular songs have different acoustic characteristics.
+It might be the case, for instance, that popular songs have more recurrent patterns in their acoustic properties or a narrower spectrum of acoustic features than non-popular songs. However, it's possible that songs that are more popular have a greater variety of acoustic characteristics than songs that are less popular, but that there are some essential characteristics that consistently set them apart from other songs.
+
+Loudness:
+The IQR of popular songs is lower than the IQR of all songs combined, it could mean that the loudness levels of popular songs are more consistently high.
+This might be as a result of the more uniform loudness level across popular songs, which are made to be more approachable and catchy.
+   
+10. Radar graph -- showing mean of features for top 100 songs and the rest of the dataset
+The acousticness, danceability, energy, instrumentality, liveliness, speechiness, and valence mean for the top 100 songs in popularity as well as the remainder of the dataset are all displayed in the radar graph above. We may deduce from this graph that the top 100 songs have higher energy and danceability than the remainder of the dataset. We also see that the top 100 songs have significantly less liveness, valence, and acoustic content than the remainder of the sample.
