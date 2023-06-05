@@ -82,16 +82,16 @@ The fact that happy and uplifting music tends to be more danceable can be used t
 5. Bar graph -- Top 10 genres of all time
 
 Depending on variables including geography, demographics, and cultural trends, the popularity of certain genres can vary dramatically. Considering these factors, the most listened to genres are:
-1. Album rock
-2. Adult standards
-3. Dance Pop
-4. Contemporary Country
-5. Classic Soul
-6. Brill Building Pop
-7. Disco
-8. Karaoke
-9. Bubblegum Pop
-10. Alternative Metal
+* Album rock
+* Adult standards
+* Dance Pop
+* Contemporary Country
+* Classic Soul
+* Brill Building Pop
+* Disco
+* Karaoke
+* Bubblegum Pop
+* Alternative Metal
 
 
 6. Line Graph with Hue -- Song Year End Score VS Year Based on Popularity of Songs : Songs published more recently may have been more well-liked or streamed more frequently than songs released in years past, considering that the year-end score for songs has been rising over time. A number of things, such as modifications in consumer behavior, technological developments, and alterations in music business trends, could be to blame for this. It's crucial to remember that year-end rankings can not always be a true representation of the overall excellence or worth of a song, as popularity can be influenced by a number of variables, including marketing, social media presence, and the date of release. Generally, a rising year-end score implies that more recent songs have become more well-known or popular than songs from earlier years.
