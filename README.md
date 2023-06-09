@@ -126,11 +126,17 @@ This might be as a result of the more uniform loudness level across popular song
 
 Models Used :
 The below models were trained on the training data for the purpose of predicting the popularity of the test data songs.
+
 ● Logistic Regression
+
 ● Neural Network
+
 ● Neural Network with L2 regularization
+
 ● Random Forest
+
 ● SVM
+
 ● KMeans
 
 ### Logistic Regression
