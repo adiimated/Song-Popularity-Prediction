@@ -121,3 +121,50 @@ The IQR of popular songs is lower than the IQR of all songs combined, it could m
 This might be as a result of the more uniform loudness level across popular songs, which are made to be more approachable and catchy.
    
 10. Radar graph -- showing mean of features for top 100 songs and the rest of the dataset : The acousticness, danceability, energy, instrumentality, liveliness, speechiness, and valence mean for the top 100 songs in popularity as well as the remainder of the dataset are all displayed in the radar graph above. We may deduce from this graph that the top 100 songs have higher energy and danceability than the remainder of the dataset. We also see that the top 100 songs have significantly less liveness, valence, and acoustic content than the remainder of the sample.
+
+## Applying Machine Learning Algorithms and Statistical Models
+
+Models Used :
+The below models were trained on the training data for the purpose of predicting the popularity of the test data songs.
+● Logistic Regression
+● Neural Network
+● Neural Network with L2 regularization
+● Random Forest
+● SVM
+● KMeans
+
+### Logistic Regression
+
+Introduction:
+
+Logistic regression is a type of statistical model used for binary classification, which means predicting one of two possible outcomes. It uses a logistic function, also known as a sigmoid function, to model the probability of the positive class as a function of the input features. The logistic function maps any input value to a probability value between 0 and 1.1.
+
+Why Logistic Regression ?
+
+1. Our goal is to divide music into two categories, popular and unpopular, which calls for binary classification. Logistic regression is a good option for this assignment because it is made expressly for binary classification issues.
+
+2. Also, Logistic regression provides interpretable results, allowing you to understand the relationship between input features and the output prediction. This can be useful when trying to analyze how different song attributes (e.g., tempo, energy, danceability) affect user preferences.
+
+3. Logistic regression can serve as a good baseline model. We can compare the performance of logistic regression with more complex models (NN models) to decide if the increased complexity is worth the trade-off.
+
+Training / Tuning the Model :
+
+To tune/train the model we did the following work (not including the work in phase 1) :
+1. Load Data: The data was loaded from the songs_df dataframe, and relevant columns were
+selected based on their categories.
+
+2. Data Preprocessing:
+a. rank_score column was converted into a binary classification problem by setting a threshold of 66.5, and values above the threshold were labeled as 1 and below as 0.
+b. Categorical columns were encoded using label encoding or one-hot encoding (based on user preference).
+c. Numeric columns were standardized using StandardScaler.
+
+3. Train-Test Split: The preprocessed data was split into training and testing sets, with 30%
+of the data used for testing and a random state of 42.
+
+4. Model Building: A logistic regression model was built using LogisticRegression from
+sklearn.linear_model. The maximum number of iterations was set to 10,000.
+
+5. Model Evaluation: The model's accuracy was evaluated using accuracy_score from sklearn.metrics. Additionally, the classification_report was generated to evaluate the precision, recall, and f1-score for both classes, and confusion_matrix was generated to show the number of true positives, false positives, true negatives, and false negatives.
+
+7. Finally, the seaborn and matplotlib.pyplot libraries were used to generate a confusion
+matrix heatmap to visualize the results.
