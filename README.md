@@ -122,7 +122,7 @@ This might be as a result of the more uniform loudness level across popular song
    
 10. Radar graph -- showing mean of features for top 100 songs and the rest of the dataset : The acousticness, danceability, energy, instrumentality, liveliness, speechiness, and valence mean for the top 100 songs in popularity as well as the remainder of the dataset are all displayed in the radar graph above. We may deduce from this graph that the top 100 songs have higher energy and danceability than the remainder of the dataset. We also see that the top 100 songs have significantly less liveness, valence, and acoustic content than the remainder of the sample.
 
-## Applying Machine Learning Algorithms and Statistical Models
+## Phase 2 - Applying Machine Learning Algorithms and Statistical Models
 
 Models Used :
 The below models were trained on the training data for the purpose of predicting the popularity of the test data songs.
