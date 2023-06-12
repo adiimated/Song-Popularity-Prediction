@@ -81,6 +81,8 @@ The fact that happy and uplifting music tends to be more danceable can be used t
 
 5. Bar graph -- Top 10 genres of all time
 
+![alt text](https://github.com/adiimated/Song-Popularity-Prediction/blob/main/images/eda/eda_top10.jpg)
+
 Depending on variables including geography, demographics, and cultural trends, the popularity of certain genres can vary dramatically. Considering these factors, the most listened to genres are:
 * Album rock
 * Adult standards
