@@ -103,6 +103,8 @@ We can see from the graph above that even if the music is loud and energetic, we
  
  9. Box Plot -- loudness, acousticness, danceability, valence
 
+![alt text](https://github.com/adiimated/Song-Popularity-Prediction/blob/main/images/eda/eda_boxplot.jpg)
+
 Valence:
 We can see from empirical data that the IQR of popular songs is typically narrower than the IQR of all songs combined. As a result, there are less extreme valence scores and a greater consistency in the emotional content of popular songs. In comparison, all songs often have a wider range of valence scores and a more diversified emotional content.
   
