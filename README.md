@@ -61,7 +61,11 @@ We divided the project into 3 phases :
 
 ### EDA
 
-1. Checking Main statistics of the data using df.describe() : To get a sense of spread of the data, central tendency, dispersion, and shape of the distribution of the data in a DataFrame, we use df.describe().
+1. Checking Main statistics of the data using df.describe() : 
+
+![alt text](https://github.com/adiimated/Song-Popularity-Prediction/blob/main/dataset/images/dfdescribe.png)
+
+To get a sense of spread of the data, central tendency, dispersion, and shape of the distribution of the data in a DataFrame, we use df.describe().
 
 2. Plotting a heatmap of Correlation Matrix : To get the correlation between the different variables in the dataset, we plot the heatmap for the dataset.
 
