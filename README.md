@@ -174,3 +174,13 @@ sklearn.linear_model. The maximum number of iterations was set to 10,000.
 
 7. Finally, the seaborn and matplotlib.pyplot libraries were used to generate a confusion
 matrix heatmap to visualize the results.
+
+Effectiveness of the model:
+
+The model achieved an overall accuracy of 0.78, which means it correctly classified 78.3% of the cases. The precision for class 0 is 0.79, which means that out of all the cases that the model classified as class 0, 79% were actually class 0. The recall for class 0 is 0.98, which means that out of all the cases that are actually class 0, the model correctly identified 98% of them.
+
+The precision for class 1 is 0.53, which means that out of all the cases that the model classified as class 1, 53% were actually class 1. The recall for class 1 is 0.08, which means that out of all the cases that are actually class 1, the model correctly identified only 8% of them. The F1-score is a measure of the model's overall performance, taking into account both precision and recall. The F1-score for class 0 is 0.88 and for class 1 is 0.14.
+
+The support column shows the number of instances in each class. There are 4,781 instances of class 0 and 1,335 instances of class 1. The macro average of precision, recall, and F1-score is calculated as the average of the scores for both classes, without considering their distribution. The macro average precision, recall, and F1-score in this case are 0.66, 0.53, and 0.51 respectively.
+
+The weighted average of precision, recall, and F1-score is calculated as the weighted average of the scores for both classes, taking into account their distribution. The weighted average precision, recall, and F1-score in this case are 0.73, 0.78, and 0.71 respectively.
