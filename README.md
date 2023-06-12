@@ -105,6 +105,9 @@ Songs published more recently may have been more well-liked or streamed more fre
 7. Histogram -- Duration of all songs : If the distribution of song lengths on the graph is any indication, the most typical song length is probably between 3 and 4 minutes, with the majority of songs falling between 187000 and 260000 milliseconds. This song's typical length can be attributed to a variety of factors. For instance, a song lasting three to four minutes can convey a full musical concept, tell a story, or express an emotion while being brief enough to keep listeners interested and fit into the conventional structure of a commercial radio broadcast. Overall, the concentration of songs in the 3–4 minute range indicates that this is a well-liked and effective formula for writing music that connects with listeners and satisfies industry standards.
 
 8. Scatter Plot -- Loudness VS Energy Based on Popularity of Songs
+
+![alt text](https://github.com/adiimated/Song-Popularity-Prediction/blob/main/dataset/images/LOUDNESS%20VS%20ENERGY%20BASED%20ON%20POPULARITY%20OF%20SONGS.png)
+
 We can see from the graph above that even if the music is loud and energetic, we cannot predict whether or not it will be popular. But we can definitely say that loudness and energy are 2 factors that are highly correlated. This could be due to the fact that loudness can evoke feelings of excitement and intensity, whereas energy is frequently linked to a song's tempo and rhythm. When these elements work together, they can have a strong emotional effect on listeners and increase a song's memorability and appeal.
  
  9. Box Plot -- loudness, acousticness, danceability, valence
