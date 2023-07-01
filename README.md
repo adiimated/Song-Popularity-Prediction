@@ -156,48 +156,16 @@ The below models were trained on the training data for the purpose of predicting
 
 ● KMeans
 
-### Logistic Regression
+Results:
 
-Introduction:
+| Model Used | Accuracy |
+| ----------- | ----------- |
+| Logistic Regression | Title       |
+| Neural Network | Text        |
+| Neural Network with L2 regularization | Text        |
+| Random Forest | Text        |
+| SVM | Text        |
 
-Logistic regression is a type of statistical model used for binary classification, which means predicting one of two possible outcomes. It uses a logistic function, also known as a sigmoid function, to model the probability of the positive class as a function of the input features. The logistic function maps any input value to a probability value between 0 and 1.1.
 
-Why Logistic Regression ?
 
-1. Our goal is to divide music into two categories, popular and unpopular, which calls for binary classification. Logistic regression is a good option for this assignment because it is made expressly for binary classification issues.
 
-2. Also, Logistic regression provides interpretable results, allowing you to understand the relationship between input features and the output prediction. This can be useful when trying to analyze how different song attributes (e.g., tempo, energy, danceability) affect user preferences.
-
-3. Logistic regression can serve as a good baseline model. We can compare the performance of logistic regression with more complex models (NN models) to decide if the increased complexity is worth the trade-off.
-
-Training / Tuning the Model :
-
-To tune/train the model we did the following work (not including the work in phase 1) :
-1. Load Data: The data was loaded from the songs_df dataframe, and relevant columns were
-selected based on their categories.
-
-2. Data Preprocessing:
-a. rank_score column was converted into a binary classification problem by setting a threshold of 66.5, and values above the threshold were labeled as 1 and below as 0.
-b. Categorical columns were encoded using label encoding or one-hot encoding (based on user preference).
-c. Numeric columns were standardized using StandardScaler.
-
-3. Train-Test Split: The preprocessed data was split into training and testing sets, with 30%
-of the data used for testing and a random state of 42.
-
-4. Model Building: A logistic regression model was built using LogisticRegression from
-sklearn.linear_model. The maximum number of iterations was set to 10,000.
-
-5. Model Evaluation: The model's accuracy was evaluated using accuracy_score from sklearn.metrics. Additionally, the classification_report was generated to evaluate the precision, recall, and f1-score for both classes, and confusion_matrix was generated to show the number of true positives, false positives, true negatives, and false negatives.
-
-7. Finally, the seaborn and matplotlib.pyplot libraries were used to generate a confusion
-matrix heatmap to visualize the results.
-
-Effectiveness of the model:
-
-The model achieved an overall accuracy of 0.78, which means it correctly classified 78.3% of the cases. The precision for class 0 is 0.79, which means that out of all the cases that the model classified as class 0, 79% were actually class 0. The recall for class 0 is 0.98, which means that out of all the cases that are actually class 0, the model correctly identified 98% of them.
-
-The precision for class 1 is 0.53, which means that out of all the cases that the model classified as class 1, 53% were actually class 1. The recall for class 1 is 0.08, which means that out of all the cases that are actually class 1, the model correctly identified only 8% of them. The F1-score is a measure of the model's overall performance, taking into account both precision and recall. The F1-score for class 0 is 0.88 and for class 1 is 0.14.
-
-The support column shows the number of instances in each class. There are 4,781 instances of class 0 and 1,335 instances of class 1. The macro average of precision, recall, and F1-score is calculated as the average of the scores for both classes, without considering their distribution. The macro average precision, recall, and F1-score in this case are 0.66, 0.53, and 0.51 respectively.
-
-The weighted average of precision, recall, and F1-score is calculated as the weighted average of the scores for both classes, taking into account their distribution. The weighted average precision, recall, and F1-score in this case are 0.73, 0.78, and 0.71 respectively.
