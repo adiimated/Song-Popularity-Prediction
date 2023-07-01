@@ -135,9 +135,11 @@ Loudness:
 The IQR of popular songs is lower than the IQR of all songs combined, it could mean that the loudness levels of popular songs are more consistently high.
 This might be as a result of the more uniform loudness level across popular songs, which are made to be more approachable and catchy.
    
-10. Radar graph -- showing mean of features for top 100 songs and the rest of the dataset : The acousticness, danceability, energy, instrumentality, liveliness, speechiness, and valence mean for the top 100 songs in popularity as well as the remainder of the dataset are all displayed in the radar graph above. We may deduce from this graph that the top 100 songs have higher energy and danceability than the remainder of the dataset. We also see that the top 100 songs have significantly less liveness, valence, and acoustic content than the remainder of the sample.
+10. Radar graph -- showing mean of features for top 100 songs and the rest of the dataset : 
 
 ![alt text](https://github.com/adiimated/Song-Popularity-Prediction/blob/main/dataset/images/Radar%20graph.png)
+
+The acousticness, danceability, energy, instrumentality, liveliness, speechiness, and valence mean for the top 100 songs in popularity as well as the remainder of the dataset are all displayed in the radar graph above. We may deduce from this graph that the top 100 songs have higher energy and danceability than the remainder of the dataset. We also see that the top 100 songs have significantly less liveness, valence, and acoustic content than the remainder of the sample.
 
 ## Phase 2 - Applying Machine Learning Algorithms and Statistical Models
 
